@@ -1,19 +1,24 @@
+import Link from "next/link";
 import { Logo } from "./logo";
 
 export const Header = () => {
   return (
     <div className="w-full container mx-auto">
       <div className="w-full flex flex-col md:flex-row items-center justify-between">
-        <span className="text-yellow-300 no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
-          <Logo />
-          Snack{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-teal-300">
-            Of The Day
+        <Link href="/">
+          <span className="text-yellow-300 no-underline hover:no-underline font-bold text-2xl lg:text-4xl group transition-all  duration-300 ease-in-out">
+            <Logo className="group-hover:w-[5.125rem] group-hover:h-[5.125rem transition-all" />
+            <span className="transition-all group-hover:font-extrabold">
+              Snack{" "}
+            </span>
+            <span className="transition-all group-hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-teal-300">
+              Of The Day
+            </span>
           </span>
-        </span>
-        <div className="flex md:w-1/2 md:justify-end content-center">
+        </Link>
+        <div className="flex md:w-1/2 md:justify-end content-center text-pink-500">
           <a
-            className="inline-block no-underline hover:text-pink-300 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            className="inline-block no-underline hover:text-pink-400 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://twitter.com/intent/tweet?url=#"
           >
             <svg
@@ -25,7 +30,7 @@ export const Header = () => {
             </svg>
           </a>
           <a
-            className="inline-block no-underline hover:text-pink-300 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            className="inline-block no-underline hover:text-pink-400 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
             href="https://www.facebook.com/sharer/sharer.php?u=#"
           >
             <svg

@@ -1,4 +1,4 @@
-export const Logo = () => {
+export const Logo = ({ className }: { className?: string }) => {
   return (
     <svg
       width="400"
@@ -6,7 +6,7 @@ export const Logo = () => {
       viewBox="0 0 400 313"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-20 h-20 inline"
+      className={`w-20 h-20 inline ${className || ""}`}
     >
       <g clipPath="url(#clip0_4_2)">
         <path
