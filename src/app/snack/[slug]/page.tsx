@@ -6,7 +6,35 @@ import path from "path";
 import Link from "next/link";
 import Image from "next/image";
 
-export default async function Home({ params }: { params: { slug: string } }) {
+export async function generateStaticParams() {
+  const params = [];
+  const years = await fs.readdir(path.join(process.cwd(), "content", "snacks"));
+  for (const year of years) {
+    const months = await fs.readdir(
+      path.join(process.cwd(), "content", "snacks", year)
+    );
+    for (const month of months) {
+      const buff = await fs.readFile(
+        path.join(process.cwd(), "content", "snacks", year, month)
+      );
+      const text = buff.toString();
+      const days = JSON.parse(text)?.snacks?.map(
+        (_: unknown, i: number) => i + 1
+      );
+      for (const day of days) {
+        params.push({ params: { slug: `${year}-${month}-${day}` } });
+      }
+    }
+  }
+
+  return params;
+}
+
+export default async function SnackPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   // params to slug is in format YYYY-MM-DD
   const date = new Date(params.slug);
   if (isNaN(date.getTime())) {
