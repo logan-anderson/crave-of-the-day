@@ -1,3 +1,4 @@
+import { Header } from "@/components/header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -19,7 +20,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} leading-normal tracking-normal text-yellow-300 m-6 bg-cover bg-fixed bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700  via-gray-900 to-gray-950`}
       >
-        {children}
+        <div className="h-full">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );
