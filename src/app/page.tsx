@@ -12,15 +12,15 @@ export default function Home() {
       {/*Nav*/}
       <div className="w-full container mx-auto">
         <div className="w-full flex items-center justify-between">
-          <span className="text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
+          <span className="text-yellow-300 no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
             Snack{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-teal-300">
               Of The Day
             </span>
           </span>
           <div className="flex w-1/2 justify-end content-center">
             <a
-              className="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+              className="inline-block no-underline hover:text-pink-300 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
               href="https://twitter.com/intent/tweet?url=#"
             >
               <svg
@@ -32,7 +32,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              className="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+              className="inline-block no-underline hover:text-pink-300 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
               href="https://www.facebook.com/sharer/sharer.php?u=#"
             >
               <svg
@@ -47,104 +47,10 @@ export default function Home() {
         </div>
       </div>
       {/*Main*/}
-      <div className="mx-auto max-w-3xl">
-        <div className="prose w-full break-words dark:prose-invert dark">
-          <p>
-            <strong>Tropical Fruit Salsa with Cinnamon Pita Chips</strong>
-          </p>
-          <p>
-            <strong>Ingredients:</strong>
-          </p>
-          <p>For the Tropical Fruit Salsa:</p>
-          <ul>
-            <li>1 ripe mango, diced</li>
-            <li>1 cup fresh pineapple, diced</li>
-            <li>1 kiwi, peeled and diced</li>
-            <li>1/2 cup strawberries, diced</li>
-            <li>1/4 cup red bell pepper, finely chopped</li>
-            <li>2 tablespoons fresh lime juice</li>
-            <li>1 tablespoon honey</li>
-            <li>1 tablespoon fresh mint leaves, finely chopped</li>
-          </ul>
-          <p>For the Cinnamon Pita Chips:</p>
-          <ul>
-            <li>4 whole wheat pita bread rounds</li>
-            <li>2 tablespoons melted butter</li>
-            <li>2 tablespoons granulated sugar</li>
-            <li>1 teaspoon ground cinnamon</li>
-          </ul>
-          <p>
-            <strong>Instructions:</strong>
-          </p>
-          <ol>
-            <li>
-              <p>Preheat the oven to 350°F (175°C).</p>
-            </li>
-            <li>
-              <p>
-                To make the Tropical Fruit Salsa, combine all the diced fruits
-                (mango, pineapple, kiwi, strawberries, and red bell pepper) in a
-                large mixing bowl.
-              </p>
-            </li>
-            <li>
-              <p>
-                In a separate small bowl, whisk together the lime juice and
-                honey. Pour the mixture over the diced fruits and gently toss
-                everything together until the fruits are well coated. Add the
-                finely chopped mint leaves and mix again. Cover the bowl with
-                plastic wrap and refrigerate the salsa for about 20-30 minutes
-                to let the flavors meld.
-              </p>
-            </li>
-            <li>
-              <p>
-                While the salsa is chilling, prepare the Cinnamon Pita Chips.
-                Cut each pita bread round into triangular wedges.
-              </p>
-            </li>
-            <li>
-              <p>
-                In a small bowl, mix together the granulated sugar and ground
-                cinnamon.
-              </p>
-            </li>
-            <li>
-              <p>
-                Brush the pita wedges with melted butter on both sides and
-                sprinkle the cinnamon-sugar mixture over them, ensuring they are
-                evenly coated.
-              </p>
-            </li>
-            <li>
-              <p>
-                Place the coated pita wedges on a baking sheet lined with
-                parchment paper and bake in the preheated oven for about 10-12
-                minutes or until they turn golden and crispy.
-              </p>
-            </li>
-            <li>
-              <p>
-                Once the Cinnamon Pita Chips are done, remove them from the oven
-                and let them cool.
-              </p>
-            </li>
-            <li>
-              <p>
-                Serve the chilled Tropical Fruit Salsa in a bowl alongside the
-                Cinnamon Pita Chips, and you have a refreshing and flavorful
-                snack!
-              </p>
-            </li>
-          </ol>
-          <p>
-            This snack is not only delicious but also visually appealing,
-            perfect for serving at parties or enjoying on a sunny day. The
-            combination of tangy tropical fruits with the sweet and crispy pita
-            chips makes it a delightful treat for anyone who loves a mix of
-            sweet and savory flavors. Enjoy!
-          </p>
-        </div>
+      <div className="mx-auto max-w-3xl w-full h-full flex justify-center mt-[20vh]">
+        <span className="font-sans text-6xl mx-auto text-center font-bold">
+          Pretzels
+        </span>
       </div>
     </div>
   );

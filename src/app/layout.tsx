@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} leading-normal tracking-normal text-blue-300 m-6 bg-cover bg-fixed bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-950  via-gray-800 to-black`}
+        className={`${inter.className} leading-normal tracking-normal text-yellow-300 m-6 bg-cover bg-fixed bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700  via-gray-900 to-gray-950`}
       >
         {children}
       </body>
