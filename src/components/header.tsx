@@ -19,7 +19,8 @@ export const Header = () => {
         <div className="flex md:w-1/2 md:justify-end content-center text-pink-500">
           <a
             className="inline-block no-underline hover:text-pink-400 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
-            href="https://twitter.com/intent/tweet?url=#"
+            href="https://twitter.com/cool_snacks_bot"
+            target="_blank"
           >
             <svg
               className="fill-current h-6"

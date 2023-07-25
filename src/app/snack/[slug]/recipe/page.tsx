@@ -52,7 +52,7 @@ export default async function RecipePage({
   const recipeText = await fs.readFile(recipeFilePath, "utf8");
 
   return (
-    <div className="mx-auto max-w-lg  lg:max-w-5xl w-full h-full flex justify-center flex-col mt-5">
+    <>
       <div className="mx-auto flex flex-col lg:flex-row">
         <div className="lg:mx-5">
           <span className="font-sans text-3xl lg:text-5xl mx-auto text-center font-bold">
@@ -102,6 +102,6 @@ export default async function RecipePage({
           {recipeText}
         </ReactMarkdown>
       </div>
-    </div>
+    </>
   );
 }
