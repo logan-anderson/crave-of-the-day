@@ -1,24 +1,17 @@
-import dotenv from "dotenv";
 import { promises as fs } from "fs";
-import { Configuration } from "openai";
-import { TypeSafeOpenAIApi } from "typesafe-openai";
+import path from "path";
+import { OpenAIApi } from "openai";
 import axios from "axios";
 
-dotenv.config();
-const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-
-const openai = new TypeSafeOpenAIApi(configuration);
+export const slugify = (text: string) =>
+  text.replace(/\s+/g, "-").toLowerCase();
 
 async function downloadImage(url: string, filename: string) {
   const response = await axios.get(url, { responseType: "arraybuffer" });
 
   fs.writeFile(filename, response.data);
 }
-
-const run = async () => {
-  const prompt = "Mango Chili Fruit Roll-Ups";
+export const generateImage = async (prompt: string, openai: OpenAIApi) => {
   const response = await openai.createImage({
     prompt,
     n: 1,
@@ -27,9 +20,8 @@ const run = async () => {
   const image_url = response.data.data[0].url;
   if (!image_url) throw new Error("No image url found");
 
-  console.log({ image_url });
-  const fileName = `${prompt.toLocaleLowerCase().replace(" ", "-")}.png`;
-  await downloadImage(image_url, fileName);
+  const fileName = `${slugify(prompt)}.png`;
+  const fullPath = path.join(process.cwd(), "public", "img", fileName);
+  await downloadImage(image_url, fullPath);
+  return "/img/" + fileName;
 };
-
-run();

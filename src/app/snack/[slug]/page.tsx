@@ -51,9 +51,9 @@ export default async function SnackPage({
     return notFound();
   }
 
-  const data: { snacks: { name: string; description: string }[] } = JSON.parse(
-    await fs.readFile(filePath, "utf8")
-  );
+  const data: {
+    snacks: { name: string; description: string; image: string }[];
+  } = JSON.parse(await fs.readFile(filePath, "utf8"));
   const snack = data.snacks[date.getUTCDate() - 1];
 
   return (
@@ -83,7 +83,7 @@ export default async function SnackPage({
           <Image
             loading="eager"
             className="rounded-3xl"
-            src="/img/mango-chili fruit roll-ups.png"
+            src={snack.image}
             alt={snack.description}
             width={1024}
             height={1024}
