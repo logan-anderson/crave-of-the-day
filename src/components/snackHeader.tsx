@@ -4,8 +4,10 @@ import { ArrowRightIcon } from "@heroicons/react/20/solid";
 
 export const SnackHeader = ({
   snack,
+  date,
 }: {
   snack: { name: string; description: string; recipe: string; image: string };
+  date: string;
 }) => {
   return (
     <div className="mx-auto flex flex-col lg:flex-row">
@@ -15,7 +17,7 @@ export const SnackHeader = ({
         </span>
         <div className="text-lg">{snack.description}</div>
         <div className="mt-3">
-          <Link href={`recipe`}>
+          <Link href={`/snack/${date}/recipe`}>
             <button
               type="button"
               className="inline-flex items-center gap-x-2 rounded-md bg-pink-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

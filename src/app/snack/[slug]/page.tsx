@@ -65,7 +65,7 @@ export default async function SnackPage({
 
   return (
     <div className="mx-auto max-w-lg  lg:max-w-5xl w-full h-full flex justify-center flex-col mt-5 lg:mt-[10vh]">
-      <SnackHeader snack={snack} />
+      <SnackHeader snack={snack} date={params.slug} />
     </div>
   );
 }
