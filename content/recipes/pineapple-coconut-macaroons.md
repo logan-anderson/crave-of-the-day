@@ -5,6 +5,7 @@
 These Pineapple Coconut Macaroons are a tropical twist on the classic sweet treat. The combination of pineapple and coconut adds a burst of flavor to these chewy and moist macaroons. Enjoy them as a delightful dessert or as a snack any time of the day.
 
 **Ingredients:**
+
 - 2 cups shredded coconut
 - 1 cup canned crushed pineapple, drained
 - 1/2 cup granulated sugar
@@ -14,6 +15,7 @@ These Pineapple Coconut Macaroons are a tropical twist on the classic sweet trea
 - Pinch of salt
 
 **Instructions:**
+
 1. Preheat your oven to 350°F (175°C). Line a baking sheet with parchment paper or silicone mat.
 2. In a large bowl, combine the shredded coconut, crushed pineapple, sugar, flour, vanilla extract, and salt. Mix until all the ingredients are well combined.
 3. In a separate bowl, beat the egg whites until stiff peaks form. This might take a few minutes.
