@@ -70,54 +70,33 @@ const SnackListPage = async ({
       <Link href="/" className="text-sm font-semibold leading-6 text-gray-50">
         <span aria-hidden="true">←</span>Back
       </Link>
-      <form className="flex flex-row my-3 gap-5">
-        <div>
-          <label htmlFor="year" className="block text-sm font-medium leading-6">
-            Year
-          </label>
-          <select
-            id="year"
-            name="year"
-            className="mt-2 block bg-transparent w-full rounded-md border-0 py-1.5 pl-3 pr-10 ring-1 ring-inset ring-pink-500 focus:ring-2 focus:ring-pink-300 sm:text-sm sm:leading-6"
-          >
-            {years.map((year) => {
-              return (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-        <div>
-          <label
-            htmlFor="month"
-            className="block text-sm font-medium leading-6"
-          >
-            Month
-          </label>
-          <select
-            id="month"
-            name="month"
-            className="mt-2 block bg-transparent  w-full rounded-md border-0 py-1.5 pl-3 pr-10 ring-1 ring-inset ring-pink-500 focus:ring-2 focus:ring-pink-300 sm:text-sm sm:leading-6"
-            defaultValue="Canada"
-          >
-            {months.map((m) => {
-              return (
-                <option
-                  selected={m.val + 1 === month}
-                  key={m.val}
-                  value={m.val}
-                >
+      <h1 className="leading-4 text-lg">Other months</h1>
+      <div className="mt-3">
+        <ul>
+          {months.map((m) => {
+            return (
+              <li
+                key={m.label}
+                className={`hover:underline hover:font-bold ${
+                  month === m.val ? "underline" : ""
+                }`}
+              >
+                <Link href={`/snack?year=${year}&month=${m.val + 1}`}>
                   {m.label}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </form>
-
-      <SnackFeatureList snacks={snacks?.snacks || []} />
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+      <SnackFeatureList
+        snacks={
+          snacks?.snacks.map((x, i) => ({
+            ...x,
+            date: `${year}-${month + 1}-${i + 1}`,
+          })) || []
+        }
+      />
     </div>
   );
 };
