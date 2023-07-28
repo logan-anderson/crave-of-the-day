@@ -56,9 +56,11 @@ snack = snack_json['snacks'][int(current_day-1)]
 
 tweet_text = f"""🍿🍬 Snack of the Day For {current_month_str} {current_day_str}: {snack['name']}😋🎉
                     
-Craving a delightful treat? 🤩 
+Craving a delightful #treat ? 🤩 
                     
 👉 https://snack-of-the-day.vercel.app/snack/{current_year}-{current_month}-{current_day}
+
+#foodie #snackoftheday #recipe #yummy #yum 
 """
 
 print(tweet_text)
