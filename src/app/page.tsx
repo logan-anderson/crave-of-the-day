@@ -1,28 +1,41 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
 import Link from "next/link";
 
 const features = [
   {
-    name: "Daily Snack Delights",
+    name: "Daily Crave Recipes:",
     description:
-      "Say goodbye to snack monotony! We handpick a delightful surprise for you every single day, making your snack time a thrilling discovery",
+      "Say goodbye to snack monotony! Our AI chefs work tirelessly to come up with a brand new, delectable snack recipe every single day. From savory delights to sweet surprises, we cater to all your cravings and keep you excited to try something new in the kitchen.",
     icon: (props: any) => <span {...props}>🍩</span>,
   },
   {
-    name: "Stay Satiated with SnackBot! 🍿📲",
+    name: "AI-Generated Perfection:",
     description:
-      "Don't miss out on your daily dose of delectable delights! Follow our Twitter bot, SnackBot, and treat yourself to mouthwatering snack notifications every single day. 🍫🍿🍩",
-    icon: (props: any) => <span {...props}>🎉</span>,
+      "Powered by the latest AI technology, Crave of the Day delivers unmatched precision and creativity in every recipe. Our AI chefs analyze a vast array of ingredients and cooking techniques, producing unique combinations that will leave your taste buds dancing with joy",
+    icon: (props: any) => <span {...props}>🤖</span>,
   },
   {
-    name: "Life is Short, Snack Wisely",
+    name: "Easy-to-Follow Instructions:",
     description:
-      "SnackSpotter encourages you to embrace life's little joys and savor every moment. Treat yourself to a delightful snack and make each day extraordinary!",
-    icon: (props: any) => <span {...props}>🌈</span>,
+      "No more complicated cooking processes! Our recipes are designed with simplicity in mind. Each step is carefully explained, ensuring that even novice cooks can create mouthwatering snacks without any hassle.",
+    icon: (props: any) => <span {...props}>🍟</span>,
+  },
+  {
+    name: "Get Social on Twitter:",
+    description: (
+      <div>
+        {"Don't"} miss out on your daily dose of delectable delights! Follow our{" "}
+        <a
+          href="https://twitter.com/crave_daily"
+          className="font-bold text-pink-500 hover:underline"
+          target="_blank"
+        >
+          Twitter bot
+        </a>{" "}
+        and treat yourself to mouthwatering snack notifications every single
+        day.
+      </div>
+    ),
+    icon: (props: any) => <span {...props}>🎉</span>,
   },
 ];
 
@@ -76,7 +89,7 @@ export default function Home() {
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
               <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <h1 className="text-4xl font-bold tracking-tight text-yellow-300  sm:text-6xl">
-                  Your Daily Dose of Snack-tastic Delights🌟
+                  Say goodbye to snack monotony 👋
                 </h1>
                 <p className="relative mt-6 text-lg leading-8 text-gray-50 sm:max-w-md lg:max-w-none">
                   Are you tired of the same old snacks? Craving something
@@ -164,8 +177,8 @@ export default function Home() {
                   A better way to snack
                 </p>
                 <p className="mt-6 text-lg leading-8 text-gray-50">
-                  Welcome to SnackSpotter, where every day is a delicious
-                  adventure! 🍿🍫🍿
+                  Welcome to Crave of the day, where every day is a delicious
+                  adventure!
                 </p>
                 <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-50 lg:max-w-none">
                   {features.map((feature) => (

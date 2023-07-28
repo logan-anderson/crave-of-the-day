@@ -24,7 +24,7 @@ export default function RootLayout({
           <Header />
           {children}
         </div>
-        <footer>
+        <footer className="mt-9">
           <div className="border-t border-pink-500  mx-auto max-w-7xl pb-12 pt-6 px-6 lg:px-8">
             <div className="mt-4">
               <p className="text-center text-xs leading-5 text-pink-500">
