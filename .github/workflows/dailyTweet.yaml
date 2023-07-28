@@ -3,11 +3,11 @@ name: Post on Twitter
 on:
   workflow_call:
   workflow_dispatch:
-  schedule:
-    - cron: "30 13 * * *"
+  # schedule:
+  # - cron: "30 13 * * *"
 
 jobs:
-  build:
+  post:
     runs-on: ubuntu-latest
 
     steps:
