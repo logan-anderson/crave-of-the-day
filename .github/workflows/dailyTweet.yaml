@@ -1,0 +1,41 @@
+name: Post on Twitter
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 13 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11 #install the python needed
+      - name: execute py script # run the run.py to get the latest data
+        working-directory: "twitter-bot"
+        run: |
+          pip install -r requirements.txt
+          python run.py
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_KEY_S: ${{ secrets.TWITTER_API_KEY_S }}
+          TWITTER_ACESS_TOKEN: ${{ secrets.TWITTER_ACESS_TOKEN }}
+          TWITTER_ACESS_TOKEN_S: ${{ secrets.TWITTER_ACESS_TOKEN_S }}
+
+      # - name: Commit files
+      #   continue-on-error: true
+      #   run: |
+      #     git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git config --local user.name "github-actions[bot]"
+      #     git commit -m "update workflow" -a
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.TWITTER_GITHUB_TOKEN }}
+      #     branch: main
