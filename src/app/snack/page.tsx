@@ -1,13 +1,9 @@
 import { SnackFeatureList } from "@/components/snackFeatureList";
-import { SnackHeader } from "@/components/snackHeader";
-import { promises as fs } from "fs";
+import { snackClient } from "@/lib/snackUtils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import path from "path";
 
-const years = [2023];
-
-const MONTHS = [
+export const MONTHS = [
   "January",
   "February",
   "March",
@@ -27,43 +23,32 @@ const SnackListPage = async ({
   params: { slug: string };
   searchParams: { [key: string]: string | string[] | undefined };
 }) => {
-  const year = searchParams.year || new Date().getUTCFullYear();
-  const month = Number(searchParams.month) - 1 || new Date().getUTCMonth();
-  let snacks:
-    | {
-        snacks: {
-          name: string;
-          description: string;
-          image: string;
-          recipe: string;
-        }[];
-      }
-    | undefined;
-  try {
-    snacks = JSON.parse(
-      await fs.readFile(
-        path.join(
-          process.cwd(),
-          "content",
-          "snacks",
-          year.toString(),
-          `${month}.json`
-        ),
-        "utf8"
-      )
-    );
-  } catch (error) {
+  const today = new Date();
+  const year = Number(searchParams.year) || today.getUTCFullYear();
+  const month = Number(searchParams.month) - 1 || today.getUTCMonth();
+
+  if (typeof year === "object") {
     return notFound();
   }
-  const months = (
-    await fs.readdir(
-      path.join(process.cwd(), "content", "snacks", year.toString())
-    )
-  )
-    .map((x) => {
-      return Number(x.replace(".json", ""));
-    })
-    .map((x) => ({ val: x, label: MONTHS[x] }));
+
+  // cant get future snacks
+  if (Number(year) > today.getUTCFullYear() || month > today.getUTCMonth()) {
+    return notFound();
+  }
+  // Filter out future snacks if we are in the current month and year
+  const filter =
+    year === today.getUTCFullYear() && month === today.getUTCMonth();
+
+  const snacks = await snackClient.getSnackList({
+    month,
+    year,
+    filter,
+  });
+
+  if (!snacks) {
+    return notFound();
+  }
+  const months = await snackClient.getValidMonths({ year, filter: true });
 
   return (
     <div>
@@ -73,7 +58,7 @@ const SnackListPage = async ({
       <h1 className="leading-4 text-lg">Other months</h1>
       <div className="mt-3">
         <ul>
-          {months.map((m) => {
+          {months.map((m, i) => {
             return (
               <li
                 key={m.label}
@@ -90,6 +75,7 @@ const SnackListPage = async ({
         </ul>
       </div>
       <SnackFeatureList
+        month={month}
         snacks={
           snacks?.snacks.map((x, i) => ({
             ...x,

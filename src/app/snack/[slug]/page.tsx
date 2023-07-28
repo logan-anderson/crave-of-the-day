@@ -38,6 +38,11 @@ export default async function SnackPage({
   if (isNaN(date.getTime())) {
     throw new Error("Invalid date");
   }
+  const today = new Date();
+  // cant get future snacks
+  if (date > today) {
+    return notFound();
+  }
   const filePath = path.join(
     process.cwd(),
     "content",

@@ -15,6 +15,10 @@ export default async function RecipePage({
   if (isNaN(date.getTime())) {
     throw new Error("Invalid date");
   }
+  const today = new Date();
+  if (date > today) {
+    return notFound();
+  }
   const snackFilePath = path.join(
     process.cwd(),
     "content",
