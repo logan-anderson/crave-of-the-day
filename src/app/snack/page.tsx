@@ -3,20 +3,6 @@ import { snackClient } from "@/lib/snackUtils";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export const MONTHS = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
 const SnackListPage = async ({
   searchParams,
 }: {

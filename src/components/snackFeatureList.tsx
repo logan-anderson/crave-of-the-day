@@ -1,4 +1,4 @@
-import { MONTHS } from "@/app/snack/page";
+import { MONTHS } from "@/lib/constants";
 import { Snack } from "@/lib/schema";
 import Link from "next/link";
 

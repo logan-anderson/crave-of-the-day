@@ -1,6 +1,7 @@
 import path from "path";
 import { promises as fs } from "fs";
 import { snackFileSchema } from "./schema";
+import { MONTHS } from "./constants";
 
 type SnackListArgs = {
   month: string | number;
@@ -8,21 +9,6 @@ type SnackListArgs = {
   filter: boolean;
   filterDay?: string | number;
 };
-
-export const MONTHS = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
 
 export class SnackModel {
   contentPath: string;
