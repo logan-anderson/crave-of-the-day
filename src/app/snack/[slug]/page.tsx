@@ -1,8 +1,15 @@
+import { Metadata, ResolvingMetadata } from "next";
+
 import { SnackHeader } from "@/components/snackHeader";
 import fs from "fs/promises";
 import { notFound } from "next/navigation";
 
 import path from "path";
+import { snackClient } from "@/lib/snackUtils";
+
+type Props = {
+  params: { slug: string };
+};
 
 export async function generateStaticParams() {
   const params = [];
@@ -26,6 +33,26 @@ export async function generateStaticParams() {
   }
 
   return params;
+}
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const date = new Date(params.slug);
+  const snack = await snackClient.getSnack(date);
+  if (!snack) {
+    return notFound();
+  }
+
+  return {
+    title: snack.name,
+    description: snack.description,
+    openGraph: {
+      url: snack.image,
+    },
+  };
 }
 
 export default async function SnackPage({

@@ -42,6 +42,30 @@ export class SnackModel {
     }
   }
 
+  async getSnack(date: Date) {
+    const year = date.getUTCFullYear();
+    const month = date.getUTCMonth();
+    const day = date.getUTCDate();
+    try {
+      const rawJson = JSON.parse(
+        await fs.readFile(
+          path.join(
+            this.contentPath,
+            "snacks",
+            year.toString(),
+            `${month}.json`
+          ),
+          "utf8"
+        )
+      );
+      const snacks = snackFileSchema.parse(rawJson);
+      return snacks.snacks[day - 1];
+    } catch (error) {
+      console.info(error);
+      return null;
+    }
+  }
+
   async getSnackList(args: SnackListArgs) {
     const { month, year, filter } = args;
     try {

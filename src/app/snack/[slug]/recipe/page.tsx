@@ -4,6 +4,32 @@ import ReactMarkdown from "react-markdown";
 import Image from "next/image";
 
 import path from "path";
+import { Metadata, ResolvingMetadata } from "next";
+import { snackClient } from "@/lib/snackUtils";
+
+type Props = {
+  params: { slug: string };
+};
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const date = new Date(params.slug);
+  const snack = await snackClient.getSnack(date);
+  if (!snack) {
+    return notFound();
+  }
+
+  return {
+    title: snack.name,
+    description: snack.description,
+    openGraph: {
+      url: snack.image,
+    },
+  };
+}
 
 export default async function RecipePage({
   params,
