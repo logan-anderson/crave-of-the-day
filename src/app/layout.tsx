@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon-32.png" sizes="32x32" />
+      <link rel="icon" href="/favicon-128.png" sizes="128x128" />
+      <link rel="icon" href="/favicon-180.png" sizes="180x180" />
       <body
         className={`${inter.className} leading-normal tracking-normal text-yellow-300 m-6 bg-cover bg-fixed bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700  via-gray-900 to-gray-950`}
       >
