@@ -1,8 +1,10 @@
-# Crave of the day
+# Crave of the Day
+
+![Crave of the day](./public/logo.svg)
 
 > Check out the [website](https://craveoftheday.com)!
 
-![Crave of the day](./public/logo.svg)
+> Follow the [twitter bot](https://twitter.com/crave_daily)!
 
 ## About
 
@@ -19,7 +21,7 @@ Crave of the day is a website and twitter bot that posts a new snack every day. 
 
 ## Overview
 
-### Snack generation
+### Snack Generation
 
 A list of snacks is generated using the [`scripts/generateMonth.ts](https://github.com/logan-anderson/crave-of-the-day/blob/main/scripts/generateMonth.ts) script. This script
 
