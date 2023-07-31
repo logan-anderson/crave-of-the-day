@@ -2,7 +2,8 @@ const Intro = () => {
   return (
     <main className="mx-auto max-w-2xl  w-full h-full flex justify-center flex-col mt-5">
       <h1 className="leading-10 font-bold text-4xl m-2 md:m-10">
-        🎉 Introducing "Crave of the Day" - Your Daily Snack Adventure!
+        🎉 Introducing &quot;Crave of the Day&quot; - Your Daily Snack
+        Adventure!
       </h1>
       <p className="my-2">
         🎉 Say farewell to snack monotony because we have something exciting in
@@ -17,8 +18,8 @@ const Intro = () => {
         <li>Snacks that are fun and easy to make</li>
       </ul>
       <p className="my-2">
-        If you're tired of the same old snacks, then this is the place for you!
-        Please{" "}
+        If you&apos;re tired of the same old snacks, then this is the place for
+        you! Please{" "}
         <a
           href="https://twitter.com/crave_daily"
           className="font-bold text-pink-500 hover:underline"
@@ -34,7 +35,7 @@ const Intro = () => {
         >
           this link
         </a>
-        which will take you directly to today's snack.
+        which will take you directly to today&apos;s snack.
       </p>
 
       <p className="my-2">
