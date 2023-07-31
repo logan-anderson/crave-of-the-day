@@ -36,9 +36,9 @@ export default function RootLayout({
           {children}
         </div>
         <footer className="mt-9">
-          <div className="border-t border-pink-500  mx-auto max-w-7xl pb-12 pt-6 px-6 lg:px-8">
-            <div className="mt-4">
-              <p className="text-center text-xs leading-5 text-pink-500">
+          <div className="text-center text-xs leading-5 mt-4 border-t border-pink-500 text-pink-500  mx-auto max-w-7xl pb-12 pt-6 px-6 lg:px-8 flex flex-col md:flex-row justify-center gap-4">
+            <div>
+              <p className="">
                 &copy; 2023. Made with ❤️ by{" "}
                 <a
                   href="https://logan.codes"
@@ -48,6 +48,16 @@ export default function RootLayout({
                   Logan Anderson
                 </a>
               </p>
+            </div>
+            <div>
+              Source code available on{" "}
+              <a
+                href="https://github.com/logan-anderson/crave-of-the-day"
+                target="_blank"
+                className=" hover:text-pink-400 underline font-bold"
+              >
+                Github
+              </a>
             </div>
           </div>
         </footer>
