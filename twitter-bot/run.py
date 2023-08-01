@@ -7,11 +7,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 def ordinal_suffix(i: int):
     j = i % 10
     k = i % 100
     if (j == 1 and k != 11):
-        return i + "st"
+        return str(i) + "st"
 
     if (j == 2 and k != 12):
         return str(i) + "nd"
@@ -20,6 +21,7 @@ def ordinal_suffix(i: int):
         return str(i) + "rd"
 
     return str(i) + "th"
+
 
 consumer_key = os.environ['TWITTER_API_KEY']
 consumer_secret = os.environ['TWITTER_API_KEY_S']
