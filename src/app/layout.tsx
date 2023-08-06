@@ -29,7 +29,7 @@ export default function RootLayout({
       <link rel="icon" href="/favicon-128.png" sizes="128x128" />
       <link rel="icon" href="/favicon-180.png" sizes="180x180" />
       <body
-        className={`${inter.className} leading-normal tracking-normal text-yellow-300 m-6 bg-cover bg-fixed bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700  via-gray-900 to-gray-950`}
+        className={`${inter.className} leading-normal tracking-normal text-yellow-300 m-6 bg-cover bg-fixed bg-gray-950 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700  via-gray-900 to-gray-950`}
       >
         <div className="h-full min-h-[90vh]">
           <Header />
