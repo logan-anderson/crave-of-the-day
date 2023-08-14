@@ -60,7 +60,7 @@ tweet_text = f"""🍿🍬 Snack of the Day For {current_month_str} {current_day_
                     
 Craving a delightful #treat ? 🤩 
                     
-👉 https://snack-of-the-day.vercel.app/snack/{current_year}-{current_month}-{current_day}
+👉 https://craveoftheday.com/snack/{current_year}-{current_month}-{current_day}
 
 #foodie #snackoftheday #recipe #yummy #yum 
 """
