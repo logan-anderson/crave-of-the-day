@@ -12,8 +12,11 @@ const configuration = new Configuration({
 });
 
 // Get current month
-const month = new Date().getMonth() + 1;
-const monthName = new Date().toLocaleString("default", { month: "long" });
+// const month = new Date().getMonth() + 1;
+// const monthName = new Date().toLocaleString("default", { month: "long" });
+// Update this to generate for a specific month
+const month = 10;
+const monthName = "October";
 
 // Get current year
 const year = new Date().getFullYear();

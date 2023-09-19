@@ -1,0 +1,190 @@
+{
+  "snacks": [
+    {
+      "name": "Pumpkin Spice Popcorn",
+      "description": "Sweet and salty popcorn infused with the classic fall flavors of pumpkin spice.",
+      "image": "/img/pumpkin-spice-popcorn.png",
+      "recipe": "pumpkin-spice-popcorn.md"
+    },
+    {
+      "name": "Witch's Finger Pretzel Rods",
+      "description": "Creepy but delightful, these pretzel rods are dipped in green chocolate and adorned with an almond fingernail.",
+      "image": "/img/witch's-finger-pretzel-rods.png",
+      "recipe": "witch's-finger-pretzel-rods.md"
+    },
+    {
+      "name": "Haunted House Pizza Bites",
+      "description": "Bite-sized pizzas shaped like haunted houses, topped with mozzarella ghosts.",
+      "image": "/img/haunted-house-pizza-bites.png",
+      "recipe": "haunted-house-pizza-bites.md"
+    },
+    {
+      "name": "Black Cat Oreos",
+      "description": "Oreos cleverly decorated to look like spooky black cats.",
+      "image": "/img/black-cat-oreos.png",
+      "recipe": "black-cat-oreos.md"
+    },
+    {
+      "name": "Monster Mallows",
+      "description": "Marshmallows transformed into monsters using colorful icing and creative toppings.",
+      "image": "/img/monster-mallows.png",
+      "recipe": "monster-mallows.md"
+    },
+    {
+      "name": "Apple Caramel Chews",
+      "description": "Juicy apple chews coated in rich, buttery caramel.",
+      "image": "/img/apple-caramel-chews.png",
+      "recipe": "apple-caramel-chews.md"
+    },
+    {
+      "name": "Ghostly Gummies",
+      "description": "Gummy candies in the shape of ghosts, perfect for the Halloween season.",
+      "image": "/img/ghostly-gummies.png",
+      "recipe": "ghostly-gummies.md"
+    },
+    {
+      "name": "Spider Web Donuts",
+      "description": "Delicious donuts topped with a spiderweb design, perfect with a cup of hot cider.",
+      "image": "/img/spider-web-donuts.png",
+      "recipe": "spider-web-donuts.md"
+    },
+    {
+      "name": "Ghoulish Granola Bars",
+      "description": "Nutritious granola bars with scary face designs.",
+      "image": "/img/ghoulish-granola-bars.png",
+      "recipe": "ghoulish-granola-bars.md"
+    },
+    {
+      "name": "Monster Eyeball Macaroons",
+      "description": "French macaroons decorated to look like colourful monster eyes.",
+      "image": "/img/monster-eyeball-macaroons.png",
+      "recipe": "monster-eyeball-macaroons.md"
+    },
+    {
+      "name": "Spooky S’mores Dip",
+      "description": "A fun twist on the classic s'mores, served dip-style with graham crackers on the side.",
+      "image": "/img/spooky-s’mores-dip.png",
+      "recipe": "spooky-s’mores-dip.md"
+    },
+    {
+      "name": "Candy Corn Popsicles",
+      "description": "Layered popsicles replicating the iconic colors of candy corn.",
+      "image": "/img/candy-corn-popsicles.png",
+      "recipe": "candy-corn-popsicles.md"
+    },
+    {
+      "name": "Creepy Critter Crispy Treats",
+      "description": "Rice crispy bars formed into spooky shapes and adorned with candy.",
+      "image": "/img/creepy-critter-crispy-treats.png",
+      "recipe": "creepy-critter-crispy-treats.md"
+    },
+    {
+      "name": "Mummy Muffins",
+      "description": "Baked orange-cream muffins cleverly decorated to resemble mummies.",
+      "image": "/img/mummy-muffins.png",
+      "recipe": "mummy-muffins.md"
+    },
+    {
+      "name": "Pumpkin Patch Parfaits",
+      "description": "Parfaits layered with pumpkin puree, greek yogurt and granola.",
+      "image": "/img/pumpkin-patch-parfaits.png",
+      "recipe": "pumpkin-patch-parfaits.md"
+    },
+    {
+      "name": "Zombie Zucchini Boats",
+      "description": "Zucchini boats filled with tasty filling, decorated as cute but scary zombies.",
+      "image": "/img/zombie-zucchini-boats.png",
+      "recipe": "zombie-zucchini-boats.md"
+    },
+    {
+      "name": "Batty Chocolate Bark",
+      "description": "Rich dark chocolate bark decorated with candy bats and Halloween sprinkles.",
+      "image": "/img/batty-chocolate-bark.png",
+      "recipe": "batty-chocolate-bark.md"
+    },
+    {
+      "name": "Werewolf Wontons",
+      "description": "Crispy wontons filled with sweet pumpkin cream.",
+      "image": "/img/werewolf-wontons.png",
+      "recipe": "werewolf-wontons.md"
+    },
+    {
+      "name": "Frankenstein Fruit Cups",
+      "description": "Healthy fruit cups decorated to resemble Frankenstein's monster.",
+      "image": "/img/frankenstein-fruit-cups.png",
+      "recipe": "frankenstein-fruit-cups.md"
+    },
+    {
+      "name": "Eerie Eyeball Eggs",
+      "description": "Hard-boiled eggs decorated to look like spooky eyeballs.",
+      "image": "/img/eerie-eyeball-eggs.png",
+      "recipe": "eerie-eyeball-eggs.md"
+    },
+    {
+      "name": "Skeleton Skewers",
+      "description": "Fruit skewers assembled to look like mini skeletons.",
+      "image": "/img/skeleton-skewers.png",
+      "recipe": "skeleton-skewers.md"
+    },
+    {
+      "name": "Scary Skull Sugar Cookies",
+      "description": "Delicious sugar cookies shaped like skulls and decorated with icing.",
+      "image": "/img/scary-skull-sugar-cookies.png",
+      "recipe": "scary-skull-sugar-cookies.md"
+    },
+    {
+      "name": "Vampire Velvet cupcakes",
+      "description": "Red velvet cupcakes with cream cheese frosting, decorated like vampires.",
+      "image": "/img/vampire-velvet-cupcakes.png",
+      "recipe": "vampire-velvet-cupcakes.md"
+    },
+    {
+      "name": "Boo! Berry Parfait",
+      "description": "A layered dessert with blueberries, granola, and creamy yogurt.",
+      "image": "/img/boo!-berry-parfait.png",
+      "recipe": "boo!-berry-parfait.md"
+    },
+    {
+      "name": "Gruesome Grape Gummies",
+      "description": "Homemade grape-flavored gummy candies.",
+      "image": "",
+      "recipe": "gruesome-grape-gummies.md"
+    },
+    {
+      "name": "Executioner’s Eclairs",
+      "description": "Choux pastry eclairs, filled with creamy custard.",
+      "image": "/img/executioner’s-eclairs.png",
+      "recipe": "executioner’s-eclairs.md"
+    },
+    {
+      "name": "Bloodshot Peanut Butter Balls",
+      "description": "Peanut butter balls with a red jam center, designed to look like bloodshot eyes.",
+      "image": "/img/bloodshot-peanut-butter-balls.png",
+      "recipe": "bloodshot-peanut-butter-balls.md"
+    },
+    {
+      "name": "Dracula's Dentures",
+      "description": "A fun cookie treat that looks like Dracula's dentures, made from red frosting and marshmallows.",
+      "image": "/img/dracula's-dentures.png",
+      "recipe": "dracula's-dentures.md"
+    },
+    {
+      "name": "Goblin’s Gooey Caramel Apples",
+      "description": "Tart apples coated in rich caramel, perfect for a Halloween treat.",
+      "image": "/img/goblin’s-gooey-caramel-apples.png",
+      "recipe": "goblin’s-gooey-caramel-apples.md"
+    },
+    {
+      "name": "Jack-o-lantern Jellies",
+      "description": "Orange jellies moulded to look like jack-o-lanterns.",
+      "image": "/img/jack-o-lantern-jellies.png",
+      "recipe": "jack-o-lantern-jellies.md"
+    },
+    {
+      "name": "Fall Leaves Fudge",
+      "description": "Sweet chocolate fudge decorated with colorful fall leaf sprinkles.",
+      "image": "/img/fall-leaves-fudge.png",
+      "recipe": "fall-leaves-fudge.md"
+    }
+  ]
+}
