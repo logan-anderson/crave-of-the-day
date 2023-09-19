@@ -13,15 +13,19 @@ const configuration = new Configuration({
 
 // Get current month
 const month = new Date().getMonth() + 1;
+const monthName = new Date().toLocaleString("default", { month: "long" });
+
+// Get current year
+const year = new Date().getFullYear();
 const openai = new TypeSafeOpenAIApi(configuration);
 
 const run = async () => {
+  console.log(`Generating snacks for ${monthName} ${year}`);
   const snacks = await openai.createChatCompletionTypeSafe({
     messages: [
       {
         role: "user",
-        content:
-          "Generate a list of fun and unique snacks for the month of September. There must be one snack for every day of the month.",
+        content: `Generate a list of fun and unique snacks for the month of ${monthName}. There must be one snack for every day of the month.`,
       },
     ],
     model: "gpt-4-0613",
@@ -40,15 +44,7 @@ const run = async () => {
       }),
     },
   });
-  const snackPath = path.join(
-    process.cwd(),
-    "content",
-    "snacks",
-    "2023",
-    "8.json"
-  );
-  // const snacks: { snacks: { name: string; description: string }[] } =
-  // JSON.parse(await fs.readFile(snackPath, "utf-8"));
+
   console.dir(snacks, { depth: null });
 
   const extendedSnacks = await Promise.all(
@@ -91,12 +87,23 @@ const run = async () => {
         markdownPath = undefined;
       }
 
-      return { ...snack, image: img || "", recipe: markdownPath || "" };
+      return {
+        ...snack,
+        image: img || "",
+        recipe: `${slugify(snack.name)}.md` || "",
+      };
     })
   );
 
   await fs.writeFile(
-    path.join(__dirname, "../", "content", "snacks", `${month}.json`),
+    path.join(
+      __dirname,
+      "../",
+      "content",
+      "snacks",
+      year.toString(),
+      `${month - 1}.json`
+    ),
     JSON.stringify({ snacks: extendedSnacks }, null, 2)
   );
 };
