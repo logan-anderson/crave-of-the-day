@@ -1,0 +1,184 @@
+{
+  "snacks": [
+    {
+      "name": "Pumpkin Spice Trail Mix",
+      "description": "A perfect mix of nuts, pumpkin seeds, dried fruits, and a hint of pumpkin spice flavor to welcome the start of fall.",
+      "image": "/img/pumpkin-spice-trail-mix.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/pumpkin-spice-trail-mix.md"
+    },
+    {
+      "name": "Apple Pie Energy Bites",
+      "description": "Delicious bite-sized snacks made from dried apples, oats, and cinnamon, giving you energy the natural way.",
+      "image": "/img/apple-pie-energy-bites.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/apple-pie-energy-bites.md"
+    },
+    {
+      "name": "Cheddar and Thyme Savory Cookies",
+      "description": "A delicious twist to your regular sweet cookies - these cheddar and thyme cookies are perfect for a light snack.",
+      "image": "/img/cheddar-and-thyme-savory-cookies.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/cheddar-and-thyme-savory-cookies.md"
+    },
+    {
+      "name": "Maple Glazed Popcorn",
+      "description": "Sweet and crunchy popcorn drizzled with rich maple syrup - a perfect fall comfort snack.",
+      "image": "/img/maple-glazed-popcorn.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/maple-glazed-popcorn.md"
+    },
+    {
+      "name": "Honey Roasted Almonds",
+      "description": "Almonds perfectly roasted with a touch of honey and salt.",
+      "image": "/img/honey-roasted-almonds.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/honey-roasted-almonds.md"
+    },
+    {
+      "name": "Fig and Ricotta Toast",
+      "description": "Creamy ricotta and sweet figs on a crunchy piece of toast, a perfect combo for a light snack.",
+      "image": "/img/fig-and-ricotta-toast.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/fig-and-ricotta-toast.md"
+    },
+    {
+      "name": "Zucchini Chips",
+      "description": "A healthier, low-carb alternative to potato chips packed with a zesty flavor.",
+      "image": "/img/zucchini-chips.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/zucchini-chips.md"
+    },
+    {
+      "name": "Pomegranate and Dark Chocolate Bites",
+      "description": "Juicy pomegranate seeds coated in rich dark chocolate for a sweet and tangy snack.",
+      "image": "/img/pomegranate-and-dark-chocolate-bites.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/pomegranate-and-dark-chocolate-bites.md"
+    },
+    {
+      "name": "Sweet Potato Pretzels",
+      "description": "Soft, chewy pretzels made from sweet potato dough, perfect for a filling snack.",
+      "image": "/img/sweet-potato-pretzels.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/sweet-potato-pretzels.md"
+    },
+    {
+      "name": "Blueberry Cheesecake Protein Bars",
+      "description": "Rich in protein and bursting with fresh blueberry flavor, a guilt-free snack you can enjoy anytime.",
+      "image": "/img/blueberry-cheesecake-protein-bars.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/blueberry-cheesecake-protein-bars.md"
+    },
+    {
+      "name": "Fruit Sushi",
+      "description": "A fun and creative snack using fruits and rice — perfect for kids and adults alike!",
+      "image": "/img/fruit-sushi.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/fruit-sushi.md"
+    },
+    {
+      "name": "Quinoa Salad Mason Jars",
+      "description": "A portable, healthy, and delicious snack made of layered quinoa salad in a jar.",
+      "image": "/img/quinoa-salad-mason-jars.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/quinoa-salad-mason-jars.md"
+    },
+    {
+      "name": "Spinach and Feta Stuffed Mushrooms",
+      "description": "Rich and savory, these stuffed mushrooms are a hit for any time of the day.",
+      "image": "/img/spinach-and-feta-stuffed-mushrooms.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/spinach-and-feta-stuffed-mushrooms.md"
+    },
+    {
+      "name": "Sesame Crusted Tofu Sticks",
+      "description": "Protein-packed tofu sticks coated with crispy sesame seeds.",
+      "image": "/img/sesame-crusted-tofu-sticks.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/sesame-crusted-tofu-sticks.md"
+    },
+    {
+      "name": "Veggie Sushi Rolls",
+      "description": "Healthy and fresh, these sushi rolls are packed with your favorite veggies.",
+      "image": "/img/veggie-sushi-rolls.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/veggie-sushi-rolls.md"
+    },
+    {
+      "name": "Raspberry Chia Pudding",
+      "description": "A sweet and healthy snack made with fresh raspberries and chia seeds.",
+      "image": "/img/raspberry-chia-pudding.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/raspberry-chia-pudding.md"
+    },
+    {
+      "name": "Black Bean Hummus",
+      "description": "A twist on the traditional hummus using black beans, perfect for dipping your favorite veggies.",
+      "image": "/img/black-bean-hummus.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/black-bean-hummus.md"
+    },
+    {
+      "name": "Roasted Beet Chips",
+      "description": "Crispy, sweet, and salty, these beet chips are a healthier alternative to potato chips.",
+      "image": "/img/roasted-beet-chips.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/roasted-beet-chips.md"
+    },
+    {
+      "name": "Mango and Coconut Energy Balls",
+      "description": "Energy-packed snack made from juicy mangoes and shredded coconut.",
+      "image": "/img/mango-and-coconut-energy-balls.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/mango-and-coconut-energy-balls.md"
+    },
+    {
+      "name": "Spiced Caramel Popcorn",
+      "description": "Crunchy popcorn with a delicious caramel coating and a hint of cinnamon.",
+      "image": "/img/spiced-caramel-popcorn.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/spiced-caramel-popcorn.md"
+    },
+    {
+      "name": "Almond Butter and Banana Sandwich",
+      "description": "A filling and tasty snack featuring creamy almond butter and ripe banana.",
+      "image": "/img/almond-butter-and-banana-sandwich.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/almond-butter-and-banana-sandwich.md"
+    },
+    {
+      "name": "Tomato Bruschetta With Basil",
+      "description": "A classic Italian snack, featuring toasted bread topped with fresh tomatoes and basil.",
+      "image": "/img/tomato-bruschetta-with-basil.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/tomato-bruschetta-with-basil.md"
+    },
+    {
+      "name": "Honey Flavored Greek Yogurt with Pecans",
+      "description": "A creamy and flavorful snack, topped with crunchy pecans for added texture.",
+      "image": "/img/honey-flavored-greek-yogurt-with-pecans.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/honey-flavored-greek-yogurt-with-pecans.md"
+    },
+    {
+      "name": "Buttered Corn and Cheese Muffins",
+      "description": "Savory muffins packed with sweet corn kernels and melted cheese, perfect as a midday snack.",
+      "image": "/img/buttered-corn-and-cheese-muffins.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/buttered-corn-and-cheese-muffins.md"
+    },
+    {
+      "name": "Dried Fruit and Nut Bars",
+      "description": "Homemade bars packed with dried fruits and nuts, perfect for a quick energy boost.",
+      "image": "/img/dried-fruit-and-nut-bars.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/dried-fruit-and-nut-bars.md"
+    },
+    {
+      "name": "Vanilla Protein Shake With Berries",
+      "description": "A smoothie packed with vanilla protein powder and mixed berries, ideal pre or post workout.",
+      "image": "/img/vanilla-protein-shake-with-berries.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/vanilla-protein-shake-with-berries.md"
+    },
+    {
+      "name": "Peppered Jerky",
+      "description": "High protein meat snack seasoned with black pepper, perfect for a protein-packed snack.",
+      "image": "/img/peppered-jerky.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/peppered-jerky.md"
+    },
+    {
+      "name": "Sunflower Seed Butter on Rice Cakes",
+      "description": "Simple and tasty snack, with sunflower seed butter spread over crispy rice cakes.",
+      "image": "/img/sunflower-seed-butter-on-rice-cakes.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/sunflower-seed-butter-on-rice-cakes.md"
+    },
+    {
+      "name": "Watermelon and Feta Salad",
+      "description": "A refreshing and light snack, featuring juicy watermelon and crumbled feta cheese.",
+      "image": "/img/watermelon-and-feta-salad.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/watermelon-and-feta-salad.md"
+    },
+    {
+      "name": "Greek Yogurt Blueberry Muffins",
+      "description": "Moist and flavorful muffins made with Greek yogurt and packed with fresh blueberries.",
+      "image": "/img/greek-yogurt-blueberry-muffins.png",
+      "recipe": "/Users/logananderson-forestry-mac/dev/personal/snack-of-the-day-ai/content/recipes/greek-yogurt-blueberry-muffins.md"
+    }
+  ]
+}
