@@ -16,39 +16,39 @@ const month = new Date().getMonth() + 1;
 const openai = new TypeSafeOpenAIApi(configuration);
 
 const run = async () => {
-  // const snacks = await openai.createChatCompletionTypeSafe({
-  //   messages: [
-  //     {
-  //       role: "user",
-  //       content:
-  //         "Generate a list of fun and unique snacks for the month of August. There must be one snack for every day of the month.",
-  //     },
-  //   ],
-  //   model: "gpt-4-0613",
-  //   functionForce: {
-  //     name: "generateSnacks",
-  //     description: "Generate a list of snacks snacks",
-  //     parameters: z.object({
-  //       snacks: z.array(
-  //         z
-  //           .object({
-  //             name: z.string().describe("The name of the snack."),
-  //             description: z.string().describe("A description of the snack."),
-  //           })
-  //           .describe("A list of snacks for a given month.")
-  //       ),
-  //     }),
-  //   },
-  // });
+  const snacks = await openai.createChatCompletionTypeSafe({
+    messages: [
+      {
+        role: "user",
+        content:
+          "Generate a list of fun and unique snacks for the month of September. There must be one snack for every day of the month.",
+      },
+    ],
+    model: "gpt-4-0613",
+    functionForce: {
+      name: "generateSnacks",
+      description: "Generate a list of snacks snacks",
+      parameters: z.object({
+        snacks: z.array(
+          z
+            .object({
+              name: z.string().describe("The name of the snack."),
+              description: z.string().describe("A description of the snack."),
+            })
+            .describe("A list of snacks for a given month.")
+        ),
+      }),
+    },
+  });
   const snackPath = path.join(
     process.cwd(),
     "content",
     "snacks",
     "2023",
-    "7.json"
+    "8.json"
   );
-  const snacks: { snacks: { name: string; description: string }[] } =
-    JSON.parse(await fs.readFile(snackPath, "utf-8"));
+  // const snacks: { snacks: { name: string; description: string }[] } =
+  // JSON.parse(await fs.readFile(snackPath, "utf-8"));
   console.dir(snacks, { depth: null });
 
   const extendedSnacks = await Promise.all(
