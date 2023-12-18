@@ -44,20 +44,24 @@ const SnackListPage = async ({
       <h1 className="leading-4 text-lg">Other months</h1>
       <div className="mt-3">
         <ul>
-          {months.map((m, i) => {
-            return (
-              <li
-                key={m.label}
-                className={`hover:underline hover:font-bold ${
-                  month === m.val ? "underline" : ""
-                }`}
-              >
-                <Link href={`/snack?year=${year}&month=${m.val + 1}`}>
-                  {m.label}
-                </Link>
-              </li>
-            );
-          })}
+          {months
+            .sort((a, b) => {
+              return b.val - a.val;
+            })
+            .map((m, i) => {
+              return (
+                <li
+                  key={m.label}
+                  className={`hover:underline hover:font-bold ${
+                    month === m.val ? "underline" : ""
+                  }`}
+                >
+                  <Link href={`/snack?year=${year}&month=${m.val + 1}`}>
+                    {m.label}
+                  </Link>
+                </li>
+              );
+            })}
         </ul>
       </div>
       <SnackFeatureList
