@@ -67,8 +67,8 @@ Craving a delightful #treat ? 🤩
 
 print(tweet_text)
 
-img_name = snack['name'].replace(" ", "-").lower()
-img_path = f"../public/img/{img_name}.png"
+img_name = snack['image']
+img_path = f"../public{img_name}.png"
 
 upload = api.media_upload(img_path)
 print(upload)
