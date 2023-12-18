@@ -1,0 +1,193 @@
+{
+  "snacks": [
+    {
+      "name": "Peppermint Pretzel Crunch",
+      "description": "Crunchy pretzels coated with peppermint-flavored white chocolate.",
+      "image": "/img/DALL·E 2023-12-17 19.00.59 - An appetizing display of Peppermint Pretzel Crunch, featuring crunchy pretzels generously coated with peppermint-flavored white chocolate, artfully ar.png",
+      "recipe": "peppermint-pretzel-crunch.md"
+    },
+    {
+      "name": "Eggnog Cream Puffs",
+      "description": "Delicate puffs filled with a rich eggnog-flavored cream.",
+      "image": "/img/DALL·E 2023-12-17 19.01.03 - An elegant presentation of Eggnog Cream Puffs, showcasing delicate, golden-brown puffs filled with a rich, creamy eggnog-flavored filling. The cream p.png",
+      "recipe": "eggnog-cream-puffs.md"
+    },
+    {
+      "name": "Christmas Cookie Bark",
+      "description": "A festive blend of broken cookies, holiday sprinkles, and white chocolate.",
+      "image": "/img/DALL·E 2023-12-17 19.01.06 - A festive arrangement of Christmas Cookie Bark, featuring broken cookies mixed with holiday sprinkles and white chocolate, spread out on a rustic wood.png",
+      "recipe": "christmas-cookie-bark.md"
+    },
+    {
+      "name": "Gingerbread Popcorn",
+      "description": "Popcorn tossed in gingerbread spices and drizzled with a molasses glaze.",
+      "image": "/img/DALL·E 2023-12-17 19.37.12 - A delightful presentation of Gingerbread Popcorn, featuring fluffy popcorn kernels tossed in gingerbread spices and drizzled with a rich molasses glaz.png",
+      "recipe": "gingerbread-popcorn.md"
+    },
+
+    {
+      "name": "Candy Cane Brownie Bites",
+      "description": "Fudgy brownies infused with mint and topped with pieces of candy cane.",
+      "image": "/img/DALL·E 2023-12-17 19.03.28 - A captivating display of Candy Cane Brownie Bites, featuring fudgy brownie squares infused with mint and topped with crushed pieces of candy cane. The.png",
+      "recipe": "candy-cane-brownie-bites.md"
+    },
+    {
+      "name": "Yule Log Bites",
+      "description": "Chocolate sponge cake rolled with chocolate filling and cut into bite-sized pieces.",
+      "image": "/img/DALL·E 2023-12-17 19.03.52 - A charming arrangement of Yule Log Bites, depicting bite-sized pieces of chocolate sponge cake rolled with chocolate filling. The cake bites are artfu.png",
+      "recipe": "yule-log-bites.md"
+    },
+    {
+      "name": "Cranberry Orange Muffins",
+      "description": "Tangy muffins with fresh cranberries and a hint of orange zest.",
+      "image": "/img/DALL·E 2023-12-17 19.04.41 - A vibrant display of Cranberry Orange Muffins, featuring tangy muffins bursting with fresh cranberries and a hint of orange zest. The muffins are arra.png",
+      "recipe": "cranberry-orange-muffins.md"
+    },
+    {
+      "name": "Reindeer Nibbles",
+      "description": "A playful mix of chocolate-covered pretzels, peanuts, and caramel bits.",
+      "image": "/img/DALL·E 2023-12-17 19.05.59 - An imaginative presentation of Reindeer Nibbles, featuring a playful mix of chocolate-covered pretzels, peanuts, and caramel bits. The snack is artist.png",
+      "recipe": "reindeer-nibbles.md"
+    },
+    {
+      "name": "Mulled Wine Gummies",
+      "description": "Gummy candies infused with flavors of mulled wine and a touch of spice.",
+      "image": "/img/mulled-wine-gummies.png",
+      "recipe": "mulled-wine-gummies.md"
+    },
+    {
+      "name": "Santa Berry Skewers",
+      "description": "Fresh strawberries and marshmallows skewered to look like Santa hats.",
+      "image": "/img/DALL·E 2023-12-17 19.07.01 - A festive depiction of Santa Berry Skewers, showing skewers of fresh strawberries and marshmallows arranged to look like Santa hats. Each skewer featu.png",
+      "recipe": "santa-berry-skewers.md"
+    },
+    {
+      "name": "Chestnut Praline Bites",
+      "description": "Toasted chestnuts coated in praline and chocolate.",
+      "image": "/img/DALL·E 2023-12-17 19.07.25 - A luxurious display of Chestnut Praline Bites, featuring toasted chestnuts coated in a glossy praline and chocolate. The bites are arranged elegantly .png",
+      "recipe": "chestnut-praline-bites.md"
+    },
+    {
+      "name": "Frozen Peppermint Cheesecake Squares",
+      "description": "Chilled cheesecake bites flavored with peppermint extract and a chocolate crust.",
+      "image": "/img/DALL·E 2023-12-17 19.08.28 - A visually appealing presentation of Frozen Peppermint Cheesecake Squares, showing chilled cheesecake bites flavored with peppermint extract and resti.png",
+      "recipe": "frozen-peppermint-cheesecake-squares.md"
+    },
+    {
+      "name": "Elf Energy Balls",
+      "description": "Energy balls packed with oats, nuts, and dried fruits, dipped in green-tinted white chocolate.",
+      "image": "/img/DALL·E 2023-12-17 19.09.02 - A playful and colorful display of Elf Energy Balls, featuring energy balls packed with oats, nuts, and dried fruits, dipped in green-tinted white choc.png",
+      "recipe": "elf-energy-balls.md"
+    },
+    {
+      "name": "Christmas Cornflake Wreaths",
+      "description": "Cornflake clusters shaped into wreaths and decorated with cinnamon candies.",
+      "image": "/img/DALL·E 2023-12-17 19.10.14 - A delightful display of Christmas Cornflake Wreaths, featuring clusters of cornflakes shaped into wreaths and decorated with cinnamon candies. The wre.png",
+      "recipe": "christmas-cornflake-wreaths.md"
+    },
+    {
+      "name": "Grinch Fruit Kabobs",
+      "description": "Green grape, banana slice, and strawberry pieces skewered to resemble the Grinch.",
+      "image": "/img/DALL·E 2023-12-17 19.10.41 - A playful and healthy depiction of Grinch Fruit Kabobs, showcasing skewers with green grapes, banana slices, and strawberry pieces arranged to resembl.png",
+      "recipe": "grinch-fruit-kabobs.md"
+    },
+    {
+      "name": "Pomegranate Pistachio Cups",
+      "description": "Dark chocolate cups filled with pistachio cream and pomegranate arils.",
+      "image": "/img/DALL·E 2023-12-17 19.11.03 - A luxurious presentation of Pomegranate Pistachio Cups, featuring dark chocolate cups filled with smooth pistachio cream and topped with vibrant pomeg.png",
+      "recipe": "pomegranate-pistachio-cups.md"
+    },
+    {
+      "name": "White Christmas Fudge",
+      "description": "Creamy vanilla fudge studded with red and green candied cherries.",
+      "image": "/img/DALL·E 2023-12-17 19.11.28 - A heartwarming depiction of White Christmas Fudge, featuring creamy vanilla fudge studded with red and green candied cherries. The fudge is elegantly .png",
+      "recipe": "white-christmas-fudge.md"
+    },
+    {
+      "name": "Holiday Baklava Bites",
+      "description": "Phyllo pastry layered with honey and chopped nuts, cut into small squares.",
+      "image": "/img/DALL·E 2023-12-17 19.11.47 - An exquisite display of Holiday Baklava Bites, showcasing small squares of phyllo pastry layered with honey and chopped nuts. The bites are artfully a.png",
+      "recipe": "holiday-baklava-bites.md"
+    },
+    {
+      "name": "Jingle Bell Joy Balls",
+      "description": "Chewy balls of popcorn, marshmallow, and sprinkles, decorated to ring in the holiday cheer.",
+      "image": "/img/DALL·E 2023-12-17 19.12.08 - A charming presentation of Jingle Bell Joy Balls, featuring chewy balls of popcorn, marshmallow, and sprinkles, decorated to ring in the holiday cheer.png",
+      "recipe": "jingle-bell-joy-balls.md"
+    },
+    {
+      "name": "Spicy Chocolate Churros",
+      "description": "Crisp churros with a hint of chili powder, served with a chocolate dipping sauce.",
+      "image": "/img/DALL·E 2023-12-17 19.12.33 - A visually striking presentation of Spicy Chocolate Churros, featuring crisp churros with a hint of chili powder, served alongside a rich chocolate di.png",
+      "recipe": "spicy-chocolate-churros.md"
+    },
+    {
+      "name": "Peppermint Meringue Kisses",
+      "description": "Light and airy meringue cookies flavored with peppermint extract.",
+      "image": "/img/DALL·E 2023-12-17 19.12.51 - A delicate and airy depiction of Peppermint Meringue Kisses, showcasing light meringue cookies flavored with peppermint extract. The kisses are beauti.png",
+      "recipe": "peppermint-meringue-kisses.md"
+    },
+    {
+      "name": "Frosty's Snowflake Pretzels",
+      "description": "Pretzels coated in white chocolate and shaped into delicate snowflakes.",
+      "image": "/img/DALL·E 2023-12-17 19.13.26 - A whimsical and winter-themed presentation of Frosty's Snowflake Pretzels, featuring pretzels coated in white chocolate and shaped into delicate snowf.png",
+      "recipe": "frosty's-snowflake-pretzels.md"
+    },
+    {
+      "name": "Winter Wonderland Mix",
+      "description": "A magical blend of popcorn, M&Ms, pretzels, and white chocolate with a dusting of powdered sugar.",
+      "image": "/img/winter-wonderland-mix.png",
+      "recipe": "winter-wonderland-mix.md"
+    },
+    {
+      "name": "Sugarplum Fairy Delights",
+      "description": "Bite-sized treats made with dried plums, nuts, and powdered sugar, perfect for dancing in your head.",
+      "image": "/img/DALL·E 2023-12-17 19.14.10 - A delightful presentation of Sugarplum Fairy Delights, featuring bite-sized treats made with dried plums, nuts, and powdered sugar. These treats are a.png",
+      "recipe": "sugarplum-fairy-delights.md"
+    },
+    {
+      "name": "Candy Cane Fudge Swirl",
+      "description": "Layers of chocolate and peppermint fudge swirled together for a festive treat.",
+      "image": "/img/DALL·E 2023-12-17 19.14.41 - A festive and colorful portrayal of Candy Cane Fudge Swirl, showcasing layers of chocolate and peppermint fudge swirled together. The fudge is elegant.png",
+      "recipe": "candy-cane-fudge-swirl.md"
+    },
+
+    {
+      "name": "St. Nick's Savory Breadsticks",
+      "description": "Breadsticks seasoned with Italian herbs and cheese, twisted into candy cane shapes.",
+      "image": "/img/DALL·E 2023-12-17 19.45.00 - A savory and festive depiction of St. Nick's Savory Breadsticks, featuring breadsticks seasoned with Italian herbs and cheese, twisted into candy cane.png",
+      "recipe": "st.-nick's-savory-breadsticks.md"
+    },
+
+    {
+      "name": "Fruitcake Energy Bites",
+      "description": "Nutty and fruity energy bites inspired by traditional holiday fruitcake flavors.",
+      "image": "/img/DALL·E 2023-12-17 19.46.00 - An appetizing portrayal of Fruitcake Energy Bites, featuring nutty and fruity energy bites inspired by traditional holiday fruitcake flavors. The bite.png",
+      "recipe": "fruitcake-energy-bites.md"
+    },
+    {
+      "name": "Ginger Stars",
+      "description": "Star-shaped ginger cookies dusted with powdered sugar, like a snowy night.",
+      "image": "/img/DALL·E 2023-12-17 19.47.40 - A delightful presentation of Ginger Stars, featuring star-shaped ginger cookies dusted with powdered sugar, evoking a snowy night. The cookies are art.png",
+      "recipe": "ginger-stars.md"
+    },
+    {
+      "name": "Berry Merry Christmas Parfait",
+      "description": "Layers of yogurt, granola, and mixed berries in festive colors.",
+      "image": "/img/DALL·E 2023-12-17 19.53.18 - An elegant and colorful portrayal of Berry Merry Christmas Parfait, featuring layers of yogurt, granola, and mixed berries in festive colors. The parf.png",
+      "recipe": "berry-merry-christmas-parfait.md"
+    },
+    {
+      "name": "Nutcracker Sweet Bars",
+      "description": "Caramel shortbread bars topped with a variety of toasted nuts and a drizzle of chocolate.",
+      "image": "/img/DALL·E 2023-12-17 20.06.42 - Nutcracker Sweet Bars_ Caramel shortbread bars topped with a variety of toasted nuts and a drizzle of chocolate..png",
+      "recipe": "nutcracker-sweet-bars.md"
+    },
+    {
+      "name": "Rudolph's Red Velvet Bites",
+      "description": "Velvety smooth red velvet cake bites, topped with a cream cheese frosting and a red candy nose.",
+      "image": "/img/DALL·E 2023-12-17 20.08.34 - Rudolph's Red Velvet Bites_ Velvety smooth red velvet cake bites, topped with a cream cheese frosting and a red candy nose..png",
+      "recipe": "rudolph's-red-velvet-bites.md"
+    }
+  ]
+}

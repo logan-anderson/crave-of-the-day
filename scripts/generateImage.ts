@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { OpenAIApi } from "openai";
+import OpenAI from "openai";
 import axios from "axios";
 
 export const slugify = (text: string) =>
@@ -11,13 +11,14 @@ async function downloadImage(url: string, filename: string) {
 
   fs.writeFile(filename, response.data);
 }
-export const generateImage = async (prompt: string, openai: OpenAIApi) => {
-  const response = await openai.createImage({
+export const generateImage = async (prompt: string, openai: OpenAI) => {
+  const response = await openai.images.generate({
+    model: "dall-e-3",
     prompt,
     n: 1,
     size: "1024x1024",
   });
-  const image_url = response.data.data[0].url;
+  const image_url = response.data[0].url;
   if (!image_url) throw new Error("No image url found");
 
   const fileName = `${slugify(prompt)}.png`;

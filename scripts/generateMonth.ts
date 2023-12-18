@@ -1,26 +1,25 @@
 import dotenv from "dotenv";
 import { promises as fs } from "fs";
 import path from "path";
-import { Configuration, CreateChatCompletionResponse } from "openai";
 import z from "zod";
 import { TypeSafeOpenAIApi } from "typesafe-openai";
 import { generateImage, slugify } from "./generateImage";
 
 dotenv.config();
-const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
-});
 
 // Get current month
-// const month = new Date().getMonth() + 1;
-// const monthName = new Date().toLocaleString("default", { month: "long" });
+const month = new Date().getMonth() + 1;
+const monthName = new Date().toLocaleString("default", { month: "long" });
 // Update this to generate for a specific month
-const month = 10;
-const monthName = "October";
+// const month = 11;
+// const monthName = "November";
 
 // Get current year
 const year = new Date().getFullYear();
-const openai = new TypeSafeOpenAIApi(configuration);
+
+const openai = new TypeSafeOpenAIApi({
+  apiKey: process.env.OPENAI_API_KEY!,
+});
 
 const run = async () => {
   console.log(`Generating snacks for ${monthName} ${year}`);
@@ -31,7 +30,7 @@ const run = async () => {
         content: `Generate a list of fun and unique snacks for the month of ${monthName}. There must be one snack for every day of the month.`,
       },
     ],
-    model: "gpt-4-0613",
+    model: "gpt-4-1106-preview",
     functionForce: {
       name: "generateSnacks",
       description: "Generate a list of snacks snacks",
@@ -40,7 +39,9 @@ const run = async () => {
           z
             .object({
               name: z.string().describe("The name of the snack."),
-              description: z.string().describe("A description of the snack."),
+              description: z
+                .string()
+                .describe("A sort description of the snack."),
             })
             .describe("A list of snacks for a given month.")
         ),
@@ -56,13 +57,19 @@ const run = async () => {
       let markdownPath: string | undefined;
       // TODO: refactor this to not wait for the image to be generated before recipe is generated
       try {
-        img = await generateImage(snack.name, openai);
+        await new Promise((resolve) =>
+          setTimeout(resolve, Math.random() * 10000)
+        );
+        img = await generateImage(
+          `Generate a picture for a cookbook for a ${snack.name}: ${snack.description} recipe.`,
+          openai
+        );
       } catch (e) {
         console.error("Error generating image for", snack.name);
         console.error(e);
       }
       try {
-        const recipe = await openai.createChatCompletion({
+        const recipe = await openai.chat.completions.create({
           messages: [
             {
               role: "user",
@@ -71,7 +78,7 @@ const run = async () => {
           ],
           model: "gpt-3.5-turbo",
         });
-        const choices = recipe?.data?.choices || [];
+        const choices = recipe?.choices || [];
         const markdownContent =
           choices[choices.length - 1]?.message?.content || "";
         console.log({ markdownContent });

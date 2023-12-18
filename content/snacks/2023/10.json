@@ -1,0 +1,184 @@
+{
+  "snacks": [
+    {
+      "name": "Cinnamon Pumpkin Crunch",
+      "description": "A delightful mix of pumpkin seeds, cinnamon, and crunchy rice puffs.",
+      "image": "/img/cinnamon-pumpkin-crunch.png",
+      "recipe": "cinnamon-pumpkin-crunch.md"
+    },
+    {
+      "name": "Maple Bacon Jerky",
+      "description": "Savory jerky infused with sweet maple and smoky bacon.",
+      "image": "/img/maple-bacon-jerky.png",
+      "recipe": "maple-bacon-jerky.md"
+    },
+    {
+      "name": "Cranberry Pecan Muffins",
+      "description": "Freshly baked muffins loaded with tart cranberries and chopped pecans.",
+      "image": "/img/cranberry-pecan-muffins.png",
+      "recipe": "cranberry-pecan-muffins.md"
+    },
+    {
+      "name": "Apple Cider Doughnuts",
+      "description": "Soft doughnuts dipped in apple cider glaze, perfect for autumn.",
+      "image": "/img/DALL·E 2023-12-17 16.16.34 - A picturesque display of apple cider doughnuts, perfect for a cookbook. The doughnuts are golden brown, with a sugary crust and visible spices like ci.png",
+      "recipe": "apple-cider-doughnuts.md"
+    },
+    {
+      "name": "Honey Roasted Root Chips",
+      "description": "A blend of sweet potato, carrot, and beet chips roasted with honey.",
+      "image": "/img/DALL·E 2023-12-17 16.18.00 - An appetizing image of honey roasted root chips, ideal for a cookbook. The chips are thin and crispy, made from a variety of root vegetables like swee.png",
+      "recipe": "honey-roasted-root-chips.md"
+    },
+    {
+      "name": "Spiced Chai Brownies",
+      "description": "Rich chocolate brownies with a warming blend of chai spices.",
+      "image": "/img/DALL·E 2023-12-17 16.18.56 - A delectable image of spiced chai brownies, suitable for a cookbook. These brownies are rich and fudgy, infused with chai spices like cinnamon, cardam.png",
+      "recipe": "spiced-chai-brownies.md"
+    },
+    {
+      "name": "Butternut Squash Soup Poppers",
+      "description": "Creamy butternut squash soup encased in a crispy bread coating.",
+      "image": "/img/butternut-squash-soup-poppers.png",
+      "recipe": "butternut-squash-soup-poppers.md"
+    },
+    {
+      "name": "Garlic-Herb Roasted Chickpeas",
+      "description": "Crispy chickpeas roasted with a hearty mix of garlic and herbs.",
+      "image": "/img/DALL·E 2023-12-17 16.38.33 - A tantalizing image of Garlic-Herb Roasted Chickpeas, perfect for a cookbook. The chickpeas are crispy and golden, roasted with a hearty mix of garlic.png",
+      "recipe": "garlic-herb-roasted-chickpeas.md"
+    },
+    {
+      "name": "Salted Caramel Apple Nachos",
+      "description": "Thinly sliced apples drizzled with salted caramel and topped with chocolate chips and nuts.",
+      "image": "/img/DALL·E 2023-12-17 16.20.09 - A mouth-watering image of salted caramel apple nachos, perfect for a cookbook. The dish features thinly sliced green apples arranged like nachos, gene.png",
+      "recipe": "salted-caramel-apple-nachos.md"
+    },
+    {
+      "name": "Pear & Gorgonzola Flatbread Bites",
+      "description": "A savory mix of ripe pears, creamy gorgonzola cheese, and arugula on a crispy flatbread crust.",
+      "image": "/img/DALL·E 2023-12-17 16.20.50 - An elegant image of Pear & Gorgonzola Flatbread Bites, ideal for a cookbook. The flatbread is thin and crispy, topped with slices of ripe pears, crumb.png",
+      "recipe": "pear-&-gorgonzola-flatbread-bites.md"
+    },
+    {
+      "name": "Pumpkin Spice Latte Truffles",
+      "description": "Creamy truffles that capture the essence of a pumpkin spice latte.",
+      "image": "/img/DALL·E 2023-12-17 16.22.22 - A sumptuous image of Pumpkin Spice Latte Truffles, perfect for a cookbook. The truffles are creamy and smooth, embodying the flavors of a pumpkin spic.png",
+      "recipe": "pumpkin-spice-latte-truffles.md"
+    },
+    {
+      "name": "Sweet Potato & Marshmallow Skewers",
+      "description": "Roasted sweet potato chunks and fluffy marshmallows on a stick, drizzled with maple glaze.",
+      "image": "/img/DALL·E 2023-12-17 16.23.52 - A delightful image of Sweet Potato & Marshmallow Skewers, ideal for a cookbook. The skewers feature perfectly roasted sweet potato chunks alternating .png",
+      "recipe": "sweet-potato-&-marshmallow-skewers.md"
+    },
+    {
+      "name": "Baked Brie with Fig Jam",
+      "description": "Warm, gooey brie topped with sweet fig jam and wrapped in flaky pastry.",
+      "image": "/img/baked-brie-with-fig-jam.png",
+      "recipe": "baked-brie-with-fig-jam.md"
+    },
+    {
+      "name": "Harvest Trail Mix",
+      "description": "A hearty mix of nuts, seeds, dried fruits, and a sprinkle of chocolate perfect for on-the-go snacking.",
+      "image": "/img/harvest-trail-mix.png",
+      "recipe": "harvest-trail-mix.md"
+    },
+    {
+      "name": "Roasted Brussel Sprout Bites",
+      "description": "Brussel sprouts roasted until crispy and served with a tangy dipping sauce.",
+      "image": "/img/DALL·E 2023-12-17 16.25.08 - An appetizing image of Roasted Brussel Sprout Bites, suitable for a cookbook. The Brussel sprouts are roasted to a perfect crispiness, showcasing a go.png",
+      "recipe": "roasted-brussel-sprout-bites.md"
+    },
+    {
+      "name": "Pecan Pie Bars",
+      "description": "All the flavors of pecan pie in a convenient, handheld bar.",
+      "image": "/img/DALL·E 2023-12-17 16.25.41 - A scrumptious image of Pecan Pie Bars, designed for a cookbook. The bars capture all the classic flavors of a pecan pie in a handheld form. They have .png",
+      "recipe": "pecan-pie-bars.md"
+    },
+    {
+      "name": "Mulled Wine Gelees",
+      "description": "A sophisticated, jelly snack featuring classic mulled wine spices and fruits.",
+      "image": "/img/mulled-wine-gelees.png",
+      "recipe": "mulled-wine-gelees.md"
+    },
+    {
+      "name": "Caramel Corn Pumpkin Seeds",
+      "description": "Crunchy pumpkin seeds coated in a sweet caramel corn shell.",
+      "image": "/img/DALL·E 2023-12-17 16.27.19 - A captivating image of Caramel Corn Pumpkin Seeds, ideal for a cookbook. The pumpkin seeds are coated in a shiny, sweet caramel corn shell, making the.png",
+      "recipe": "caramel-corn-pumpkin-seeds.md"
+    },
+    {
+      "name": "Turkey & Cranberry Pinwheels",
+      "description": "Turkey and cranberry sauce rolled up in a soft tortilla for a festive bite.",
+      "image": "/img/DALL·E 2023-12-17 16.28.23 - A festive image of Turkey & Cranberry Pinwheels, suitable for a cookbook. The pinwheels consist of thin slices of turkey and sweet cranberry sauce, ne.png",
+      "recipe": "turkey-&-cranberry-pinwheels.md"
+    },
+    {
+      "name": "Gingersnap Pumpkin Dip",
+      "description": "Creamy pumpkin dip with a kick of ginger spice served with gingersnap cookies.",
+      "image": "/img/gingersnap-pumpkin-dip.png",
+      "recipe": "gingersnap-pumpkin-dip.md"
+    },
+    {
+      "name": "Acorn Squash Rings",
+      "description": "Slices of acorn squash baked with a blend of autumn spices.",
+      "image": "/img/DALL·E 2023-12-17 16.29.15 - A beautiful image of Acorn Squash Rings, ideal for inclusion in a cookbook. The rings are slices of acorn squash, baked to perfection with a blend of .png",
+      "recipe": "acorn-squash-rings.md"
+    },
+    {
+      "name": "Maple Glazed Pecans",
+      "description": "Roasted pecans tossed in a sweet and sticky maple glaze.",
+      "image": "/img/DALL·E 2023-12-17 16.39.11 - A delicious image of Maple Glazed Pecans, ideal for a cookbook. The pecans are perfectly roasted and generously tossed in a sweet and sticky maple gla.png",
+      "recipe": "maple-glazed-pecans.md"
+    },
+    {
+      "name": "S'mores Pumpkin Pie Bites",
+      "description": "A bite-sized treat with pumpkin pie filling, graham cracker crust, and a toasted marshmallow on top.",
+      "image": "/img/DALL·E 2023-12-17 16.40.23 - A delightful image of S'mores Pumpkin Pie Bites, perfect for a cookbook. These bite-sized treats combine the classic flavors of s'mores and pumpkin pi.png",
+      "recipe": "s'mores-pumpkin-pie-bites.md"
+    },
+    {
+      "name": "Cranberry Almond Energy Balls",
+      "description": "A quick energy boost with dried cranberries, almonds, oats, and honey.",
+      "image": "/img/DALL·E 2023-12-17 16.42.20 - A vibrant image of Cranberry Almond Energy Balls, ideal for a cookbook. These energy balls offer a quick energy boost, made with a mix of dried cranbe.png",
+      "recipe": "cranberry-almond-energy-balls.md"
+    },
+    {
+      "name": "Mini Cornbread Muffins with Honey Butter",
+      "description": "Savory cornbread muffins served with a side of sweet honey butter.",
+      "image": "/img/DALL·E 2023-12-17 16.44.30 - An inviting image of Mini Cornbread Muffins with Honey Butter, great for a cookbook. The muffins are savory and golden, with a moist cornbread texture.png",
+      "recipe": "mini-cornbread-muffins-with-honey-butter.md"
+    },
+    {
+      "name": "Autumn Spice Hummus",
+      "description": "Hummus with a twist, featuring pumpkin and classic fall spices.",
+      "image": "/img/DALL·E 2023-12-17 16.45.24 - A visually appealing image of Autumn Spice Hummus, perfect for a cookbook. This unique hummus has a twist, blending the traditional creamy texture wit.png",
+      "recipe": "autumn-spice-hummus.md"
+    },
+    {
+      "name": "Candied Ginger Pear Slices",
+      "description": "Sweet pear slices candied with a hint of spicy ginger.",
+      "image": "/img/DALL·E 2023-12-17 16.47.06 - A delectable image of Candied Ginger Pear Slices, suitable for a cookbook. The pear slices are candied to perfection, glistening with a syrupy coating.png",
+      "recipe": "candied-ginger-pear-slices.md"
+    },
+    {
+      "name": "Boozy Apple Cider Floats",
+      "description": "A grown-up version of a float with hard apple cider and cinnamon ice cream.",
+      "image": "/img/DALL·E 2023-12-17 16.47.39 - An enticing image of Boozy Apple Cider Floats, ideal for an adult-themed cookbook. This grown-up version of a classic float features crisp, hard apple.png",
+      "recipe": "boozy-apple-cider-floats.md"
+    },
+    {
+      "name": "Fall Harvest Granola Clusters",
+      "description": "Oats, nuts, and seeds clumped together with pumpkin puree and fall spices.",
+      "image": "/img/DALL·E 2023-12-17 16.48.27 - A warm and inviting image of Fall Harvest Granola Clusters, perfect for a cookbook. These clusters are a delightful mix of oats, nuts, and seeds, all .png",
+      "recipe": "fall-harvest-granola-clusters.md"
+    },
+    {
+      "name": "Pumpkin Cheesecake Swirl Brownies",
+      "description": "Decadent brownies with a ribbon of pumpkin cheesecake swirled in.",
+      "image": "/img/DALL·E 2023-12-17 16.48.58 - An indulgent image of Pumpkin Cheesecake Swirl Brownies, ideal for a dessert cookbook. These brownies are decadently rich, with a luscious ribbon of p.png",
+      "recipe": "pumpkin-cheesecake-swirl-brownies.md"
+    }
+  ]
+}

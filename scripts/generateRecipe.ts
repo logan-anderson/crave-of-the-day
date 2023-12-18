@@ -1,16 +1,13 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import { Configuration } from "openai";
 import { TypeSafeOpenAIApi } from "typesafe-openai";
-const configuration = new Configuration({
+const openai = new TypeSafeOpenAIApi({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const openai = new TypeSafeOpenAIApi(configuration);
-
 const run = async () => {
-  const recipe = await openai.createChatCompletion({
+  const recipe = await openai.chat.completions.create({
     messages: [
       {
         role: "user",
@@ -21,7 +18,7 @@ const run = async () => {
     model: "gpt-3.5-turbo",
   });
   console.dir(recipe, { depth: null });
-  const choices = recipe.data?.choices || [];
+  const choices = recipe?.choices || [];
   console.log(choices[choices.length - 1]?.message);
 };
 

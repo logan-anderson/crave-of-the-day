@@ -1,0 +1,76 @@
+{
+  "snacks": [
+    {
+      "name": "Snowball Truffles",
+      "description": "Coconut-covered truffles resembling tiny snowballs with a creamy center.",
+      "image": "/img/DALL·E 2023-12-17 19.02.58 - An artistic depiction of Snowball Truffles, featuring small, round truffles covered in shredded coconut, resembling tiny snowballs. These truffles are.png",
+      "recipe": "snowball-truffles.md"
+    },
+    {
+      "name": "Hot Chocolate Spoons",
+      "description": "Chocolate spoons that melt into hot milk to create the perfect cup of hot cocoa.",
+      "image": "/img/DALL·E 2023-12-17 19.05.21 - A creative depiction of Hot Chocolate Spoons, showing chocolate spoons that melt into hot milk to create a perfect cup of hot cocoa. These spoons are .png",
+      "recipe": "hot-chocolate-spoons.md"
+    },
+    {
+      "name": "Toffee Apple Crisps",
+      "description": "Thinly sliced apples baked until crispy and coated with toffee.",
+      "image": "/img/DALL·E 2023-12-17 19.09.24 - An artistic depiction of Toffee Apple Crisps, showcasing thinly sliced apples baked until crispy and coated with a glossy toffee glaze. The apple cris.png",
+      "recipe": "toffee-apple-crisps.md"
+    },
+    {
+      "name": "Maple Pecan Sticky Buns",
+      "description": "Warm sticky buns glazed with maple syrup and dotted with crunchy pecans.",
+      "image": "/img/DALL·E 2023-12-17 19.46.28 - A cozy and inviting presentation of Maple Pecan Sticky Buns, featuring warm sticky buns glazed with maple syrup and dotted with crunchy pecans. The bu.png",
+      "recipe": "maple-pecan-sticky-buns.md"
+    },
+    {
+      "name": "Choco-Mint Cookie Stacks",
+      "description": "Thin mint cookies layered with chocolate ganache, creating a stack of sweet goodness.",
+      "image": "/img/DALL·E 2023-12-17 19.50.16 - A delectable display of Choco-Mint Cookie Stacks, featuring thin mint cookies layered with rich chocolate ganache. The cookie stacks are neatly arrang.png",
+      "recipe": "choco-mint-cookie-stacks.md"
+    },
+    {
+      "name": "Spiced Cider Sippers",
+      "description": "Apple cider reduced to a thick syrup and coated on dried apple rings.",
+      "image": "/img/DALL·E 2023-12-17 19.45.29 - A warm and inviting presentation of Spiced Cider Sippers, depicting apple cider reduced to a thick syrup and coated on dried apple rings. The apple ri.png",
+      "recipe": "spiced-cider-sippers.md"
+    },
+    {
+      "name": "Golden Rings Pineapple Cake",
+      "description": "Miniature pineapple cakes topped with a golden sponge and a maraschino cherry.",
+      "image": "/img/DALL·E 2023-12-17 19.46.59 - A delightful and festive depiction of Golden Rings Pineapple Cake, featuring miniature pineapple cakes topped with a golden sponge and a maraschino ch.png",
+      "recipe": "golden-rings-pineapple-cake.md"
+    },
+    {
+      "name": "Hot Cocoa Cookie Cups",
+      "description": "Mini cookie cups filled with a chocolate ganache and topped with a mini marshmallow.",
+      "image": "/img/DALL·E 2023-12-17 19.43.55 - A charming portrayal of Hot Cocoa Cookie Cups, featuring mini cookie cups filled with a rich chocolate ganache and topped with a mini marshmallow. The.png",
+      "recipe": "hot-cocoa-cookie-cups.md"
+    },
+    {
+      "name": "Almond Joyous Clusters",
+      "description": "Clusters of almonds, coconut, and dark chocolate for a joyous snack.",
+      "image": "/img/almond-joyous-clusters.png",
+      "recipe": "almond-joyous-clusters.md"
+    },
+    {
+      "name": "Spiced Nut Mix",
+      "description": "A combination of nuts roasted with warming holiday spices.",
+      "image": "/img/DALL·E 2023-12-17 19.38.45 - A delightful presentation of Spiced Nut Mix, showcasing a variety of nuts like almonds, cashews, and pecans, roasted with warming holiday spices such .png",
+      "recipe": "spiced-nut-mix.md"
+    },
+    {
+      "name": "Mince Pie Pastry Twists",
+      "description": "Flaky pastry twists filled with sweet mince pie mixture.",
+      "image": "/img/DALL·E 2023-12-17 19.06.39 - An elegant presentation of Mince Pie Pastry Twists, featuring flaky pastry twists filled with a sweet mince pie mixture. The twists are arranged on a .png",
+      "recipe": "mince-pie-pastry-twists.md"
+    },
+    {
+      "name": "Pear and Gorgonzola Crostini",
+      "description": "Crisp crostini topped with ripe pear, gorgonzola cheese, and a drizzle of honey.",
+      "image": "/img/DALL·E 2023-12-17 19.09.51 - A sophisticated and inviting presentation of Pear and Gorgonzola Crostini, featuring crisp crostini topped with ripe pear slices, crumbled gorgonzola .png",
+      "recipe": "pear-and-gorgonzola-crostini.md"
+    }
+  ]
+}
